@@ -1,7 +1,7 @@
 "use strict"
 
 const mountainsList = document.getElementById("mountainsList");
-const mountainInfo = document.getElementById("mountainInfo");
+const mountainInfo = document.getElementById("mountainOptions");
 let option = new Option("Select a mountain", "select");
 mountainsList.appendChild(option);
 
@@ -21,10 +21,10 @@ function displayInfo() {
     mountainInfo.innerHTML = "";
     for (let mountain of mountainsArray) {
         if (mountainsList.value == "select") {
-            mountainInfo.innerHTML = "";
+            mountainOptions.innerHTML = "";
         }
         else if (mountain.name == mountainsList.value) {
-            mountainInfo.innerHTML += "<br>" + mountain.desc + "<br><img src='images/" + mountain.img + "' width='100%'></img>";
+            mountainOptions.innerHTML += "<br>" + mountain.desc + "<br><img src='images/" + mountain.img + "' width='100%'></img>";
         }
     }
 }
