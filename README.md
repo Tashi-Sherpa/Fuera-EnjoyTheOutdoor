@@ -4,6 +4,6 @@ This Webpage is part of the Capstone Project to demonstrate knowledge in HTML, C
 
 <div>
         <a href="index.html">
-          <img src="/images/Homepage (1).png" alt="Brand logo" class="logo-img"></a>
+          <img src="/images/BrandHikingLogo.png" alt="Brand logo" class="logo-img"></a>
 
 </div>
