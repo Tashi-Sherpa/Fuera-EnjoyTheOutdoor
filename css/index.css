@@ -4,9 +4,17 @@ header{
   background-size: cover;
 }
 
+
+body {
+  background-color: #430643;
+}
+
+text {
+  background-color: #ed7fed;
+}
 .logo-img{
   height: 110px;
-  padding-left: 30rem;
+  padding-left: 25rem;
 }
 
 .nav-link{
@@ -18,3 +26,17 @@ header{
   background-color: #7a4578;
 }
 
+.container {
+  background-color: #f0b6f0;
+}
+
+h2 {
+  text-indent: 4rem;
+}
+
+h6 { 
+  text-indent: 4rem;
+}
+section {
+  background-color: #ebafeb;
+}
