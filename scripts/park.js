@@ -129,29 +129,4 @@ function displayParkInfo() {
 
 }
 
-function displayParks(parks) {
-
-    for (let park of parks) {
-        let tbodyOutput = document.getElementById("tbodyOutput")
-        let row = tbodyOutput.insertRow();
-        let tdParkName = row.insertCell();
-        tdParkName.innerHTML = park.LocationName;
-
-        let tdAddress = row.insertCell(1);
-        tdAddress.innerHTML = park.Address;
-
-        let tdCity = row.insertCell(2);
-        tdCity.innerHTML = park.City;
-
-        let tdState = row.insertCell(3);
-        tdState.innerHTML = park.State;
-
-        let tdZipCode = row.insertCell(4);
-        tdZipCode.innerHTML = park.ZipCode;
-    }};
-
-    function searchBtnOnClick() {
-        let all = document.getElementById("all");
-        let allValue = all.value;
-    }
 
